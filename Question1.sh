@@ -1,0 +1,5 @@
+echo "Current Date : `Date`"
+echo "Time : `Date +"%T"`"
+echo "User: `whoami`"
+echo "Home Directory : $HOME"
+echo "Current Directory : `pwd`"
