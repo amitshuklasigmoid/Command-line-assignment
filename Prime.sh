@@ -21,5 +21,9 @@ function Prime(){
     echo "$n is a prime number"
     fi
 }
-Prime $n
-
+if [ -z $n ]
+  then
+    echo "error- please enter a valid n"
+else 
+	Prime $n
+fi
