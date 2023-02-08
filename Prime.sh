@@ -1,7 +1,7 @@
 echo "Enter the n "
 read n
 
-if [-z $n]:
+if [ -z $n ]:
 then 
     echo "please enter some input"
 fi
