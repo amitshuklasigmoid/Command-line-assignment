@@ -1,11 +1,6 @@
 echo "Enter the n "
 read n
 
-if [ -z $n ]:
-then 
-    echo "please enter some input"
-fi
-
 function Prime(){
     n=$1
     i=2
